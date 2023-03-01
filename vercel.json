@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "public": true,
+  "name": "ng-demo-01",
+  "rewrites": [{ "source": "/(.*)", "destination": "/api" }],
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "dist/ng-demo-01/browser/**"
+    }
+  }
+}
