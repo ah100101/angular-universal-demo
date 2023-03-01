@@ -6,6 +6,10 @@
   "functions": {
     "api/index.js": {
       "includeFiles": "dist/ng-demo-01/browser/**"
+    },
+    "api/serverless.js": {
+      "memory": 1024,
+      "maxDuration": 30
     }
   }
 }
